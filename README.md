@@ -28,11 +28,9 @@
 
   - react's work start from here
   Mounting
-     - Component Creation: React creates component instance
      - Initial State: useState creates state with initial/dummy values
      - First Render: Component renders with dummy values creating VDOM tree
         the created VDOM is now compared to initial DOM tree which only has "root" and the difference is inserted to real DOM
-     - DOM Insertion: Component added to DOM tree
   - {if any useEffect component itself re-renders}
      - Effect Execution: useEffect runs after DOM insertion
      - State Update: Data fetch completes, setState called
